@@ -1,3 +1,3 @@
 export default {
-  base: process.env.NODE_ENV === 'production' ? '/temp-konva-js/' : '/',
+  base: process.env.NODE_ENV === 'production' ? '/tutorial-dnd-animals-v2/' : '/',
 }
