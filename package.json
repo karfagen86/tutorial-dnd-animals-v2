@@ -1,0 +1,23 @@
+{
+  "name": "tutorial-dnd-drop-animals-by-yesworld",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "@types/howler": "^2.2.9",
+    "@types/node": "^20.9.1",
+    "gh-pages": "^6.0.0",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.2",
+    "vite": "^2.4.4"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.4.0",
+    "canvg": "^4.0.1",
+    "howler": "^2.2.3",
+    "konva": "^8.1.3"
+  }
+}
