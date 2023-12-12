@@ -14,9 +14,8 @@ export default class Game {
     private readonly imageAnimals: ISourcesResolved,
     private readonly konvaService: KonvaService
   ) {
-    this.start()
-
     this.konvaService.onSuccess(() => this.decreaseAnimalCount())
+    this.start()
   }
 
   decreaseAnimalCount() {
